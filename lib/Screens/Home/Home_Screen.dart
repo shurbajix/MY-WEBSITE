@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:my_website/Classes/Classes.dart';
 import 'package:my_website/contarnets.dart';
 
 import '../Companantes/Footers.dart';
@@ -106,7 +105,7 @@ And inside this app we have a video call,
                     shadowColor: Colors.transparent,
                   ),
                   onPressed: (){
-                    js.context.callMethod('open',[buttons],);
+                    js.context.callMethod('open',['https://github.com/shurbajix/EnglishSpokenCafe'],);
                   }, child:const Text('Read More',style: TextStyle(
                     color: Colors.black,
                     fontSize: 20,
