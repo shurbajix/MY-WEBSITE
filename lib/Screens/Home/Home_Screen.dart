@@ -220,7 +220,7 @@ This my website that add my projects and write my skills and this website was wr
                     shadowColor: Colors.transparent,
                   ),
                   onPressed: (){
-                    js.context.callMethod('open',[buttons],);
+                    js.context.callMethod('open',['https://github.com/shurbajix/MY-WEBSITE/tree/master'],);
                   }, child:const Text('Read More',style: TextStyle(
                     color: Colors.black,
                     fontSize: 20,
